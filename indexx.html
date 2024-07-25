@@ -56,8 +56,30 @@
                 <img class="w-full h-full" src="/media/icons/next_arrow.svg" alt="">
             </div>
         </section>
-        <section>
-            
+        <section class="bg-blue-500 text-white h-96">
+            <form action="" class="border w-360 m-auto shadow-md shadow-white rounded-2xl">
+                <fieldset class="flex flex-col items-center justify-center text-center">
+                    <legend class="inline-block">Registra tus datos y te contactaremos</legend>
+                    <input type="text" placeholder="Nombre y apellido">
+                    <div>
+                        <input type="email" placeholder="Correo">
+                        <input type="number" placeholder="Teléfono celular">
+                    </div>
+                    <input type="number" placeholder="DNI">
+                    <label for="">Nivel</label>
+                    <select class="text-black" name="nivel_esstudios" id="">
+                        <option value="Seleccione">Por favor, seleccione una opción</option>
+                        <option value="inicial">Inicial</option>
+                        <option value="primaria">Primaria</option>
+                        <option value="secundaria">Secundaria</option>
+                    </select>
+                    <div>
+                        <input type="checkbox" name="" id="">
+                        <p>Doy consentimiento de mis datos personales de acuerdo con la politica de privacidad.</p>
+                    </div>
+                    <button type="submit">AGENDA TU VISITA AQUI</button>
+                </fieldset>
+            </form>
         </section>
     </main>
     <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
