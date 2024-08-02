@@ -11,6 +11,9 @@ module.exports = {
       boxShadow: {
         'shadow_form': '-1px 2px 14px 0px rgba(255,255,255,1)',
       },
+      colors: {
+        'yellow_catolica': '#ffbf1f',
+      },
     },
   },
   plugins: [],

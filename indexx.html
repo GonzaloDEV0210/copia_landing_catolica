@@ -6,6 +6,7 @@
     <title>Católica School Carabayllo</title>
     <link rel="stylesheet" href="/styles/index.css">
     <link rel="stylesheet" href="/node_modules/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css">
 </head>
 <body>
     <header>
@@ -60,14 +61,14 @@
             <form action="" class="border w-360 m-auto shadow-shadow_form rounded-2xl pt-3 pb-5">
                 <fieldset class="flex flex-col gap-1 items-center justify-center text-center">
                     <legend class="inline-block text-sm font-bold my-3">Registra tus datos y te contactaremos</legend>
-                    <input class="w-4/5 rounded-lg px-2 py-1" type="text" placeholder="Nombre y apellido">
+                    <input class="w-4/5 rounded-lg px-2 py-2 text-black text-sm" type="text" placeholder="Nombre y apellido">
                     <div class="flex w-4/5 gap-2 items-center justify-center">
-                        <input class="w-full rounded-lg px-2 py-1" type="email" placeholder="Correo">
-                        <input class="w-full rounded-lg px-2 py-1" type="number" placeholder="Teléfono celular">
+                        <input class="w-full rounded-lg px-2 py-2 text-black text-sm" type="email" placeholder="Correo">
+                        <input class="w-full rounded-lg px-2 py-2 text-black text-sm" type="number" placeholder="Teléfono celular">
                     </div>
-                    <input class="w-4/5 px-2 py-1 rounded-lg" type="number" placeholder="DNI">
+                    <input class="w-4/5 px-2 py-2 rounded-lg text-black text-sm" type="number" placeholder="DNI">
                     <label class="text-sm inline-block w-4/5 text-start" for="">Nivel</label>
-                    <select class="text-black w-4/5 rounded-lg px-2 py-1" name="nivel_esstudios" id="">
+                    <select class="text-black w-4/5 rounded-lg px-2 py-2 text-sm" name="nivel_esstudios" id="">
                         <option value="Seleccione">Por favor, seleccione una opción</option>
                         <option value="inicial">Inicial</option>
                         <option value="primaria">Primaria</option>
@@ -77,9 +78,30 @@
                         <input type="checkbox" name="" id="">
                         <p class="text-xs text-start">Doy consentimiento de mis datos personales de acuerdo con la politica de privacidad.</p>
                     </div>
-                    <button class="bg-yellow-500 text-black font-bold border-2 w-4/5 rounded-lg px-2 py-1 text-sm animate__animated animate__infinite animate__pulse" type="submit">AGENDA TU VISITA AQUI</button>
+                    <button class="bg-yellow-500 text-black font-bold border-2 w-4/5 rounded-lg px-2 py-1 text-sm animate__animated animate__pulse animate__infinite" type="submit">AGENDA TU VISITA AQUI</button>
                 </fieldset>
             </form>
+        </section>
+        <section class="bg-yellow_catolica relative text-white">
+            <img class="absolute -right-7 -top-7 opacity-30 w-36" src="/media/forma-03.svg" alt="forma 2">
+            <div>
+                <p class="text-center font-bold text-lg p-9">20 Años de experiencia educativa nos avalan, contamos con un campus de más de 5000 m2 exclusivamente dedicados para nuestra comunidad educativa.</p>
+                <div class="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <p>Piscinas temperadas y techadas , inscritos en la federación deportiva peruana de Natación.</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Talleres de Música, Teatro, psicomotricidad, laboratorios de ciencias, sala Smart</p>
+                        </div>
+                        <div class="swiper-slide">
+                            <p>Aulas retadoras con iluminación natural con tecnología de vanguardia.</p>
+                        </div>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
         </section>
     </main>
     <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
