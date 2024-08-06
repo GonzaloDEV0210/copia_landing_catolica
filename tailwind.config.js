@@ -13,6 +13,7 @@ module.exports = {
       },
       colors: {
         'yellow_catolica': '#ffbf1f',
+        'green_slider_catolica': 'rgba(54,162,188,.7)',
       },
     },
   },
