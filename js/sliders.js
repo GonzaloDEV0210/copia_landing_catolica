@@ -25,4 +25,21 @@ const swiper_two = new Swiper ('#slider_2', {
         crossFade: true,
     },
     speed: 1500,
-})
+});
+
+const swiper_trhee = new Swiper ('#slider_3', {
+    effect: 'flip',
+    flipEffect: {
+        slideShadows: true,
+        limitRotation: true,
+    },
+    speed: 1500,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: '.next_arrow_3',
+        prevEl: '.prev_arrow_3',
+    },
+});
