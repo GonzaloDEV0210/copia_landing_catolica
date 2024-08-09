@@ -43,3 +43,16 @@ const swiper_trhee = new Swiper ('#slider_3', {
         prevEl: '.prev_arrow_3',
     },
 });
+
+const swiper_four = new Swiper ('#slider_4', {
+    effect: 'flip',
+    speed: 1500,
+    autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: '.next_arrow_4',
+        prevEl: '.prev_arrow_4',
+    },
+});
