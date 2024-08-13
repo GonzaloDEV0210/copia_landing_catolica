@@ -42,10 +42,21 @@ const swiper_trhee = new Swiper ('#slider_3', {
         nextEl: '.next_arrow_3',
         prevEl: '.prev_arrow_3',
     },
+    breakpoints: {
+        640: {
+            effect: 'cards',
+            cardsEffect: {
+                slideShadows: false,
+            },
+        },
+    },
 });
 
 const swiper_four = new Swiper ('#slider_4', {
     effect: 'flip',
+    flipEffect: {
+        slideShadows: false
+    },
     speed: 1500,
     autoplay: {
         delay: 3000,

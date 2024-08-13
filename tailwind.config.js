@@ -6,10 +6,13 @@ module.exports = {
       width: {
         '106': '106px',
         '121': '121px',
-        '360': '360px'
+        '360': '360px',
+        '450': '450px',
+        '550': '550px',
       },
       height: {
         '2px': '2px',
+        '450': '450px',
       },
       boxShadow: {
         'shadow_form': '-1px 2px 14px 0px rgba(255,255,255,1)',
