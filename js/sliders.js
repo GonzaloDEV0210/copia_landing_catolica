@@ -49,6 +49,12 @@ const swiper_trhee = new Swiper ('#slider_3', {
                 slideShadows: false,
             },
         },
+        768: {
+            effect: 'flip',
+            flipEffect: {
+                slideShadows: false
+            }
+        }
     },
 });
 
@@ -66,4 +72,5 @@ const swiper_four = new Swiper ('#slider_4', {
         nextEl: '.next_arrow_4',
         prevEl: '.prev_arrow_4',
     },
+    
 });

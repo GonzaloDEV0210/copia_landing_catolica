@@ -9,10 +9,12 @@ module.exports = {
         '360': '360px',
         '450': '450px',
         '550': '550px',
+        '680': '680px',
       },
       height: {
         '2px': '2px',
         '450': '450px',
+        '530': '530px',
       },
       boxShadow: {
         'shadow_form': '-1px 2px 14px 0px rgba(255,255,255,1)',
@@ -25,6 +27,9 @@ module.exports = {
       lineHeight: {
         '18px': '18px',
       },
+      fontSize: {
+        '24': '24px',
+      }
     },
   },
   plugins: [],
