@@ -59,18 +59,23 @@ const swiper_trhee = new Swiper ('#slider_3', {
 });
 
 const swiper_four = new Swiper ('#slider_4', {
-    effect: 'flip',
-    flipEffect: {
-        slideShadows: false
-    },
     speed: 1500,
     autoplay: {
         delay: 3000,
-        disableOnInteraction: false,
+        
     },
+    loop: true,
     navigation: {
         nextEl: '.next_arrow_4',
         prevEl: '.prev_arrow_4',
     },
-    
+    breakpoints: {
+        1024: {
+            slidesPerView: 2,
+            effect: 'slide',
+        },
+        1536: {
+            slidesPerView: 3,
+        }
+    },
 });
