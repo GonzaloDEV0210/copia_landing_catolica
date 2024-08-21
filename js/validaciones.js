@@ -9,6 +9,7 @@ const error_input_email = document.getElementById('error_input_email');
 const error_input_celular = document.getElementById('error_input_celular');
 const error_input_dni = document.getElementById('error_input_dni');
 const error_input_nivel = document.getElementById('error_input_nivel');
+const error_email = document.getElementById('error_email');
 
 check_politicas.addEventListener('change', ()=>{
     const selectedValue = input_nivel.value;
@@ -43,10 +44,19 @@ input_nombre.addEventListener('input', ()=>{
 });
 
 input_email.addEventListener('input', ()=>{
+    const condicion = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (input_email.value.trim() !== '') {
         error_input_email.classList.add('hidden');
+        if (!condicion.test(input_email.value)) {
+            error_email.classList.remove('hidden')
+        } else {
+            error_email.classList.add('hidden')
+        }
     } else {
         error_input_email.classList.remove('hidden');
+    }
+    if (input_email.value === '') {
+        error_email.classList.add('hidden')
     }
 });
 

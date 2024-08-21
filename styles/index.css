@@ -677,6 +677,10 @@ video {
   height: 2px;
 }
 
+.h-450 {
+  height: 450px;
+}
+
 .h-52 {
   height: 13rem;
 }
@@ -695,18 +699,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-450 {
-  height: 450px;
-}
-
-.max-h-450 {
-  max-height: 450px;
-}
-
-.min-h-96 {
-  min-height: 24rem;
 }
 
 .w-106 {
