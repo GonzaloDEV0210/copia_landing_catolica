@@ -60,6 +60,7 @@ const swiper_trhee = new Swiper ('#slider_3', {
 
 const swiper_four = new Swiper ('#slider_4', {
     speed: 1500,
+    spaceBetween: 20,
     autoplay: {
         delay: 3000,
         
