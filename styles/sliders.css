@@ -1,0 +1,28 @@
+.img_slide {
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+}
+
+.link_agenda {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.link_yellow {
+    width: 100%;
+}
+
+.botones_yellow {
+    width: 300px;
+}
+
+.title_form {
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
