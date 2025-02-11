@@ -39,13 +39,12 @@ html {
 }
 
 .texto_vacantes {
-    font-size: 30px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: bold;
     background-color: #36A2BC;
     padding: 5px 30px;
     border-radius: 10px;
-    
 }
 
 .formulario_container {
@@ -53,6 +52,7 @@ html {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 510px;
 }
 
 .texto_matricula {
@@ -63,8 +63,193 @@ html {
 
 #contactForm {
     margin-top: 30px;
+    width: 320px;
 }
 
 #slider_2 {
     background-color: #36A2BC;
+}
+
+#slider_1 {
+    height: 530px;
+    margin: 0;
+    background-color: #ff6a39;
+}
+
+#slider_1 .swiper-wrapper div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#slider_1 .swiper-wrapper div p {
+    width: 310px;
+}
+
+#slider_1 .swiper-wrapper div {
+    height: 450px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 0;
+    position: relative;
+}
+
+#input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+    width: 270px;
+}
+
+#slider_4 {
+    width: 300px;
+}
+
+#sld1_img_1, #sld1_img_2, #sld1_img_3, #sld1_img_4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (min-width: 400px) {
+    #slider_1 .swiper-wrapper div, #contactForm {
+        width: 370px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 330px;
+    }
+}
+
+@media (min-width: 500px) {
+    #contactForm {
+        width: 450px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 400px;
+    }
+
+    #slider_4 {
+        width: 370px;
+    }
+}
+
+@media (min-width: 700px) {
+    #slider_4 {
+        width: 450px;
+    }
+
+    #slider_1 .swiper-wrapper div {
+        width: 450px;
+    }
+}
+
+@media (min-width: 800px) {
+    .formulario_container {
+        height: 570px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .formulario_container {
+        height: 530px;
+        width: 45%;
+        padding-left: 50px;
+    }
+
+    #slider_1 {
+        width: 55%;
+    }
+
+    #slider_4 {
+        width: 900px;
+    }
+
+    #contactForm {
+        width: 380px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 350px;
+    }
+}
+
+@media (min-width: 1300px) {
+    .formulario_container {
+        width: 40%;
+    }
+
+    #slider_1 {
+        width: 60%;
+    }
+
+    #slider_1 .swiper-wrapper div {
+        width: 500px;
+        height: 300px;
+        margin-top: 70px;
+    }
+}
+
+@media (min-width: 1300px) {
+    #contactForm {
+        width: 440px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 410px;
+    }
+
+    #submitButton {
+        margin-top: 15px;
+    }
+
+    .parrafo_vacantes {
+        font-size: 20px;
+    }
+
+    .formulario_container {
+        height: 600px;
+    }
+
+    #slider_1 {
+        height: 600px;
+    }
+}
+
+@media (min-width: 1400px) {
+    #slider_1 .swiper-wrapper div {
+        width: 600px;
+        height: 350px;
+    }
+}
+
+@media (min-width: 1500px) {
+    #contactForm {
+        width: 580px;
+        margin-top: 80px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 500px;
+    }
+
+    #submitButton {
+        margin-top: 25px;
+    }
+
+    #slider_1 .swiper-wrapper div {
+        width: 800px;
+        height: 380px;
+    }
+
+    .formulario_container {
+        height: 650px;
+    }
+
+    #slider_1 {
+        height: 650px;
+    }
+
+    #slider_4 {
+        width: 1300px;
+    }
 }
