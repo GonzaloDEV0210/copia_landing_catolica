@@ -17,7 +17,7 @@ const swiper_two = new Swiper ('#slider_2', {
         prevEl: '.prev_arrow_2',
     },
     autoplay: {
-        delay: 5000,
+        delay: 4000,
         disableOnInteraction: false,
     },
     effect: 'fade',
@@ -35,7 +35,7 @@ const swiper_trhee = new Swiper ('#slider_3', {
     },
     speed: 1500,
     autoplay: {
-        delay: 3000,
+        delay: 4000,
         disableOnInteraction: false,
     },
     navigation: {

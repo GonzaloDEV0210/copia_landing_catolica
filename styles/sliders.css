@@ -109,6 +109,17 @@ html {
     object-fit: cover;
 }
 
+#submitButton {
+    color: #525252;
+}
+
+.carabayllo {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
 @media (min-width: 400px) {
     #slider_1 .swiper-wrapper div, #contactForm {
         width: 370px;
@@ -150,6 +161,10 @@ html {
 }
 
 @media (min-width: 1024px) {
+    .carabayllo {
+        font-size: 40px;
+    }
+
     .formulario_container {
         height: 530px;
         width: 45%;
