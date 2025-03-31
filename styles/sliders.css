@@ -118,6 +118,19 @@ html {
     font-weight: bold;
     text-align: center;
     margin-bottom: 30px;
+    background-color: rgb(37 99 235);
+    width: 30%;
+    padding: 15px 0;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.parrafo_vacantes {
+    width: 70% !important;
+}
+
+.texto_matricula {
+    font-size: 30px;
 }
 
 @media (min-width: 400px) {
