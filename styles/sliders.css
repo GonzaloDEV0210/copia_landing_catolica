@@ -133,6 +133,17 @@ html {
     font-size: 30px;
 }
 
+@media (min-width: 320px) {
+    .parrafo_vacantes {
+        width: 100% !important;
+    }
+
+    .texto_vacantes {
+        font-size: 15px !important;
+        padding: 5px 10px;
+    }
+}
+
 @media (min-width: 400px) {
     #slider_1 .swiper-wrapper div, #contactForm {
         width: 370px;
@@ -155,6 +166,15 @@ html {
     #slider_4 {
         width: 370px;
     }
+
+    .parrafo_vacantes {
+        width: 100% !important;
+    }
+
+    .texto_vacantes {
+        font-size: 16px !important;
+        padding: 5px 10px;
+    }
 }
 
 @media (min-width: 700px) {
@@ -164,6 +184,10 @@ html {
 
     #slider_1 .swiper-wrapper div {
         width: 450px;
+    }
+
+    .texto_vacantes {
+        padding: 7px 25px;
     }
 }
 
