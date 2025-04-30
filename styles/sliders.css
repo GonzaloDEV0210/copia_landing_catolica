@@ -142,6 +142,12 @@ html {
         font-size: 15px !important;
         padding: 5px 10px;
     }
+
+    .carabayllo {
+        width: 90%;
+        margin-bottom: 20px;
+        font-size: 22px;
+    }
 }
 
 @media (min-width: 400px) {
@@ -151,6 +157,12 @@ html {
 
     #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
         width: 330px;
+    }
+}
+
+@media (min-width: 470px) {
+    .carabayllo {
+        width: 450px;
     }
 }
 
@@ -189,17 +201,23 @@ html {
     .texto_vacantes {
         padding: 7px 25px;
     }
+
 }
 
 @media (min-width: 800px) {
     .formulario_container {
         height: 570px;
     }
+
+    .carabayllo {
+        font-size: 26px;
+    }
 }
 
 @media (min-width: 1024px) {
     .carabayllo {
         font-size: 40px;
+        width: 600px;
     }
 
     .formulario_container {
