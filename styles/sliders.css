@@ -132,7 +132,6 @@ html {
 .texto_matricula {
     font-size: 30px;
 }
-
 @media (min-width: 320px) {
     .parrafo_vacantes {
         width: 100% !important;
@@ -202,6 +201,9 @@ html {
         padding: 7px 25px;
     }
 
+    #contactForm {
+        padding-top: 25px;
+    }
 }
 
 @media (min-width: 800px) {

@@ -20,7 +20,7 @@ const swiper_two = new Swiper ('#slider_2', {
         delay: 4000,
         disableOnInteraction: false,
     },
-    effect: 'fade',
+    effect: 'flip',
     fadeEffect: {
         crossFade: true,
     },
