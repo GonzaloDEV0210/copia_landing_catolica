@@ -123,6 +123,10 @@ html {
     font-size: 30px;
 }
 
+.banner_desktop {
+    display: none;
+}
+
 @media (min-width: 320px) {
     .parrafo_vacantes {
         width: 100% !important;
@@ -176,6 +180,20 @@ html {
     .texto_vacantes {
         font-size: 16px !important;
         padding: 5px 10px;
+    }
+
+    #slider_1 {
+        height: 680px;
+    }
+}
+
+@media (min-width: 680px) {
+    .banner_desktop {
+        display: block;
+    }
+
+    .banner_movil {
+        display: none;
     }
 }
 
