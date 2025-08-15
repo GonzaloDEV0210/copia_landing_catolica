@@ -146,6 +146,23 @@ html {
     .texto_matricula {
         margin-top: 30px;
     }
+
+    #lema_header {
+        display: none;
+    }
+
+    #header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 10;
+        background-color: #FFF;
+    }
+
+    main {
+        margin-top: 111.41px;
+    }
 }
 
 @media (min-width: 380px) {
@@ -255,6 +272,10 @@ html {
     .banner_medio {
         display: inline-block;
     }
+
+    #lema_header {
+        display: inline-flex;
+    }
 }
 
 @media (min-width: 800px) {
@@ -309,6 +330,10 @@ html {
     .carabayllo {
         font-size: 40px;
         width: 600px;
+    }
+
+    main {
+        margin-top: 131.59px;
     }
 
     .formulario_container {
