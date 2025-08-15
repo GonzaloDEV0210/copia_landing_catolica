@@ -63,7 +63,6 @@ const swiper_four = new Swiper ('#slider_4', {
     spaceBetween: 20,
     autoplay: {
         delay: 3000,
-        
     },
     loop: true,
     navigation: {

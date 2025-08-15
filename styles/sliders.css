@@ -123,7 +123,7 @@ html {
     font-size: 30px;
 }
 
-.banner_desktop {
+.banner_desktop, .banner_medio, .banner_mediogrande, .banner_600 {
     display: none;
 }
 
@@ -133,7 +133,7 @@ html {
     }
 
     .texto_vacantes {
-        font-size: 15px !important;
+        font-size: 18px !important;
         padding: 5px 10px;
     }
 
@@ -141,6 +141,20 @@ html {
         width: 90%;
         margin-bottom: 20px;
         font-size: 22px;
+    }
+
+    .texto_matricula {
+        margin-top: 30px;
+    }
+}
+
+@media (min-width: 380px) {
+    .banner_desktop, .banner_movil, .banner_mediogrande {
+        display: none;
+    }
+
+    .banner_medio {
+        display: inline-block;
     }
 }
 
@@ -184,7 +198,7 @@ html {
     }
 
     .texto_vacantes {
-        font-size: 16px !important;
+        font-size: 18px !important;
         padding: 5px 10px;
     }
 
@@ -201,47 +215,65 @@ html {
 
 @media (min-width: 600px) {
     #slider_1 {
-        height: 800px;
+        height: 630px;
     }
-}
 
-@media (min-width: 600px) {
-    #slider_1 {
-        height: 850px;
+    .texto_vacantes {
+        font-size: 22px !important;
+    }
+
+    .banner_desktop, .banner_movil, .banner_medio {
+        display: none;
+    }
+
+    .banner_mediogrande {
+        display: inline-block;
     }
 }
 
 @media (min-width: 690px) {
     #slider_1 {
-        height: 900px;
+        height: 730px;
     }
 }
 
 @media (min-width: 740px) {
     #slider_1 {
-        height: 950px;
+        height: 790px;
     }
 }
 
 @media (min-width: 770px) {
     #slider_1 {
+        height: 1000px;
+    }
+
+    .banner_desktop, .banner_movil, .banner_mediogrande {
+        display: none;
+    }
+
+    .banner_medio {
+        display: inline-block;
+    }
+}
+
+@media (min-width: 800px) {
+    #slider_1 {
         height: 1200px;
     }
 }
 
-@media (min-width: 960px) {
+@media (min-width: 950px) {
     #slider_1 {
-        height: 1500px;
-    }
-}
-
-@media (min-width: 1020px) {
-    .banner_desktop {
-        display: block;
+        height: 650px;
     }
 
-    .banner_movil {
+    .banner_medio, .banner_movil, .banner_mediogrande {
         display: none;
+    }
+
+    .banner_desktop {
+        display: inline-block;
     }
 }
 
@@ -280,13 +312,22 @@ html {
     }
 
     .formulario_container {
-        height: 530px;
+        height: 600px;
         width: 45%;
         padding-left: 50px;
     }
 
     #slider_1 {
         width: 55%;
+        height: 600px;
+    }
+
+    .banner_desktop, .banner_movil, .banner_medio {
+        display: none;
+    }
+
+    .banner_mediogrande {
+        display: inline-block;
     }
 
     #slider_4 {
@@ -300,11 +341,19 @@ html {
     #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
         width: 350px;
     }
+
+    .texto_vacantes {
+        padding: 7px 15px;
+    }
 }
 
-@media (min-width: 1030px) {
-    #slider_1 {
-        height: 530px;
+@media (min-width: 1100px) {
+    .banner_medio, .banner_desktop, .banner_movil, .banner_mediogrande {
+        display: none;
+    }
+
+    .banner_600 {
+        display: inline-block;
     }
 }
 
@@ -320,6 +369,10 @@ html {
     #slider_1 .swiper-wrapper div {
         width: 500px;
         height: 100%;
+    }
+
+    .texto_matricula {
+        margin-top: 90px;
     }
 }
 
@@ -354,6 +407,14 @@ html {
         width: 600px;
         height: 100%;
     }
+
+    .texto_vacantes {
+        font-size: 25px !important;
+    }
+
+    .texto_matricula {
+        margin: 70px 0 20px 0;
+    }
 }
 
 @media (min-width: 1500px) {
@@ -385,5 +446,87 @@ html {
 
     #slider_4 {
         width: 1300px;
+    }
+
+    .texto_vacantes {
+        font-size: 30px !important;
+    }
+
+    .texto_matricula {
+        margin: 70px 0 0 0;
+    }
+
+    #contactForm {
+        margin-top: 40px;
+        width: 500px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #label_nivel, #input_nivel, #id_consentimiento {
+        width: 430px;
+    }
+}
+
+@media (min-width: 1536px) {
+    .texto_vacantes {
+        font-size: 25px !important;
+    }
+
+    .formulario_container {
+        padding-left: 60px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .formulario_container {
+        padding-left: 75px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .formulario_container {
+        padding-left: 80px;
+    }
+
+    .banner_medio, .banner_600, .banner_movil, .banner_mediogrande {
+        display: none;
+    }
+
+    .banner_desktop {
+        display: inline-block;
+    }
+
+    #slider_1, .formulario_container {
+        height: 650px;
+    }
+}
+
+@media (min-width: 1750px) {
+    #contactForm {
+        width: 550px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #input_nivel {
+        width: 480px;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    #input_email, #input_celular {
+        height: 50px;
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 1850px) {
+    #contactForm {
+        width: 580px;
+    }
+
+    #input_nombre, #container_correo_telefono, #input_dni, #input_nivel {
+        width: 510px;
+    }
+
+    #slider_1, .formulario_container {
+        height: 680px;
     }
 }
